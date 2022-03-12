@@ -1,0 +1,18 @@
+/* ========== Обнуляющие стили ========== */
+@import "_normalize";
+@import "_nullstyle";
+
+/* ========== Подключение шрифтов ========== */
+@import "_fontsstyle";
+
+/* ========== Подключение ibg (преобр. изображения из html в background CSS) ========== */
+@import "_ibg";
+
+/* ========== Глобальные переменные ========== */
+@import "_variables";
+
+/* ========== Глобальные стили ========== */
+@import "_global";
+
+@import "_header";
+@import "_section-1";
