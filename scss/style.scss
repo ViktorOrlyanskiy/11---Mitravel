@@ -6,7 +6,7 @@
 @import "_fontsstyle";
 
 /* ========== Подключение ibg (преобр. изображения из html в background CSS) ========== */
-@import "_ibg";
+// @import "_ibg";
 
 /* ========== Глобальные переменные ========== */
 @import "_variables";
@@ -16,3 +16,4 @@
 
 @import "_header";
 @import "_section-1";
+@import "_section-2";

@@ -6,9 +6,16 @@
 
 .site-container {
     overflow: hidden;
-    font-family: "SFProDisplay";
+    font-family: "SFProDisplay", sans-serif;
 }
 
 .flex {
     display: flex;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    color: $dark-color;
 }
