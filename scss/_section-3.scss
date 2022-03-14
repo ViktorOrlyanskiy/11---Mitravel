@@ -1,0 +1,132 @@
+.section-3 {
+    background-image: url(/img/s3-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1080px;
+    position: relative;
+}
+
+.section-3 {
+    &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        height: 100%;
+        padding-bottom: 107px;
+    }
+
+    &__article {
+    }
+
+    &__stories {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 35.3%;
+        height: 100%;
+        background-color: rgba(60, 74, 81, 0.94);
+    }
+}
+
+.blog-article {
+    &__category {
+        font-size: 11px;
+        line-height: 1px;
+        text-align: center;
+        letter-spacing: 2px;
+        color: $white-color;
+        text-transform: uppercase;
+        padding: 20px 30px;
+        background-color: $accent-color;
+        border-radius: 100px;
+        display: inline-block;
+        margin: 0 0 18px 0;
+    }
+
+    &__title {
+        font-size: 48px;
+        line-height: 64px;
+        font-weight: 700;
+        color: $white-color;
+        margin: 0 0 17px 0;
+        max-width: 40%;
+    }
+
+    &__text {
+        font-family: "SFCompact", sans-serif;
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 400;
+        color: $white-color;
+        margin: 0 0 42px 0;
+        max-width: 40%;
+    }
+
+    &__btn {
+        background-color: $neptune-color;
+        color: $white-color;
+    }
+}
+
+.section-3 {
+    &__stories {
+        padding: 125px 0 0 135px;
+    }
+}
+
+.stories {
+    &__title {
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 80px;
+        color: $white-color;
+        max-width: 70%;
+        margin: 0 0 96px 0;
+    }
+
+    &__list {
+    }
+
+    &__item {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        border-bottom: 1px solid #4d5a5f;
+        margin: 0 0 37px 0;
+        padding-bottom: 32px;
+    }
+
+    &__item:last-child {
+        border-bottom: 1px solid transparent;
+    }
+
+    &__image {
+        width: 48px;
+        height: 48px;
+        overflow: hidden;
+        border-radius: 50%;
+        margin: 0 30px 0 0;
+        font-size: 0;
+        flex-shrink: 0;
+    }
+
+    &__content {
+    }
+
+    &__text {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        color: $white-color;
+        max-width: 60%;
+        margin-bottom: 15px;
+    }
+
+    &__time {
+        font-family: "SFProText-Regular", sans-serif;
+        font-size: 11px;
+        line-height: 1px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+}
