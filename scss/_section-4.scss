@@ -1,0 +1,107 @@
+.section-4 {
+    &__container {
+        margin-top: 148px;
+    }
+
+    &__title {
+        text-align: center;
+        margin: 0 0 21px 0;
+    }
+
+    &__text {
+        align-items: center;
+        margin: 0 auto;
+        max-width: 43%;
+        margin-bottom: 58px;
+    }
+}
+
+.slider-container {
+    width: 100%;
+    padding: 100px 0;
+}
+
+.section-4 .swiper-slide {
+    position: relative;
+    background: #e3e3e3;
+    border-radius: 8px;
+    min-height: 550px;
+    width: 890px;
+    transition: 0.5s;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.section-4 .swiper-slide:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 65%;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 50%, rgba(0, 0, 0, 0.461617) 100%);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.section-4 .swiper-slide-active {
+    transform: scaleX(1.16) scaleY(1.2);
+    transition: 0.5s;
+}
+
+.section-4 .swiper-slide-active::after {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.section-4 .slide__title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    color: $white-color;
+    position: relative;
+    z-index: 5;
+    padding: 0 0 25px 32px;
+    transform: translateY(200px);
+    transition: transform 0.3s;
+}
+
+.section-4 .swiper-slide-active .slide__title {
+    transform: translateY(0);
+    transition: transform 0.3s;
+}
+
+.section-4 .s4-slide1 {
+    background-image: url(/img/s4-slide2.jpg);
+}
+.section-4 .s4-slide2 {
+    background-image: url(/img/s4-slide3.jpg);
+}
+.section-4 .s4-slide3 {
+    background-image: url(/img/s4-slide1.jpg);
+}
+
+.slide__play {
+    position: absolute;
+    top: 27px;
+    left: 40px;
+    width: 97px;
+    height: 97px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-image: url(/img/s4-btn.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.swiper-slide video {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

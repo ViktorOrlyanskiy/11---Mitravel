@@ -11,3 +11,12 @@ function ibg() {
 }
 
 // ibg();
+
+
+
+let swiper = new Swiper('.slider-container', {
+    centeredSlides: true,
+    loop: true,
+    slidesPerView: 'auto',
+    spaceBetween: 105,
+});
