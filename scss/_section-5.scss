@@ -1,0 +1,99 @@
+.section-5 {
+    padding: 102px 0 100px 0;
+
+    &__content {
+        background-image: url(/img/s5-bg.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 8px;
+        width: 100%;
+        height: 798px;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        padding-right: 133px;
+    }
+
+    &__content:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(28, 46, 61, 0.45);
+    }
+
+    &__text {
+        max-width: 500px;
+        max-height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        position: relative;
+        z-index: 5;
+        padding: 335px 0 0 130px;
+    }
+
+    &__title {
+        color: $white-color;
+        margin-bottom: 39px;
+    }
+
+    &__subtitle {
+        color: $white-color;
+        font-family: "SFCompact", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+}
+
+.s4-form {
+    position: relative;
+    right: 0;
+    bottom: -96px;
+    z-index: 5;
+    width: 500px;
+    height: 416px;
+    background-color: $white-color;
+    border-radius: 8px 8px 0 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding-top: 76px;
+
+    &__field {
+        margin: 0 auto;
+        margin-bottom: 32px;
+        width: calc(100% - (72px * 2));
+        height: 38px;
+        font-size: 11px;
+        line-height: 13px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: $dark-color;
+        border-bottom: 1px solid rgba(28, 46, 61, 0.3);
+    }
+    &__field:nth-child(3) {
+        margin-bottom: 66px;
+    }
+
+    &__button {
+        width: 100%;
+        height: 96px;
+        background-color: $neptune-color;
+        text-transform: uppercase;
+        font-size: 12px;
+        line-height: 1;
+        letter-spacing: 2px;
+        color: $white-color;
+    }
+}
