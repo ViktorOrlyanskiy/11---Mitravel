@@ -1,0 +1,103 @@
+.footer {
+    padding: 120px 0 0 0;
+    border-top: 1px solid rgba(179, 179, 179, 0.5);
+
+    &__row {
+        display: flex;
+        padding-bottom: 120px;
+    }
+
+    &__column {
+        flex: 0 0 25%;
+        margin-right: 8px;
+    }
+    &__column:last-child {
+        margin-right: 0;
+        max-width: 368px;
+    }
+
+    &__last-line {
+        max-width: 1626px;
+
+        margin: 0 auto;
+        padding: 35px 30px 28px 30px;
+    }
+}
+
+.item-body {
+    &__title {
+        font-family: "Helvetica", sans-serif;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #100e0b;
+        padding-bottom: 66px;
+        position: relative;
+    }
+
+    &__title::after {
+        content: "";
+        position: absolute;
+        top: 46px;
+        left: 0;
+        z-index: 10;
+        width: 48px;
+        height: 1px;
+        background-color: #57a773;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 29px;
+        color: #959ea6;
+    }
+}
+
+.f-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    &__input {
+        width: 100%;
+        height: 64px;
+        margin-bottom: 16px;
+        padding: 0 31px;
+        background: #ffffff;
+        border: 1px solid #e4e4e4;
+        border-radius: 8px;
+        font-size: 16px;
+        line-height: 19px;
+        color: #1b1916;
+        opacity: 0.5;
+        background-image: url(/img/f-user-input.svg);
+        background-repeat: no-repeat;
+        background-position: calc(100% - 31px) center;
+    }
+
+    &__button {
+        height: 64px;
+        border-radius: 8px;
+    }
+}
+
+.last-line {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid rgba(179, 179, 179, 0.5);
+    &__item {
+        font-family: "SFProText-Regular", sans-serif;
+        font-size: 13px;
+        line-height: 15px;
+        color: #959ea6;
+    }
+    &__item:first-child {
+        flex: 1 1 70%;
+    }
+    &__item:not(:last-child) {
+        margin-right: 40px;
+    }
+}
