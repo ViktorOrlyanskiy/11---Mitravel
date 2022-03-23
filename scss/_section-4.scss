@@ -107,3 +107,134 @@
     height: 100%;
     object-fit: cover;
 }
+
+/* адаптив ширины ------------------------------------------------------------------ */
+@media (max-width: 1199px) {
+    .slider-container {
+        padding: 80px 0;
+    }
+    .section-4 {
+        &__container {
+            margin-top: 128px;
+            font-size: 52px;
+            font-size: 60px;
+        }
+    }
+}
+
+@media (max-width: 1099px) {
+    .slider-container {
+        padding: 60px 0;
+    }
+    .section-4 .swiper-slide-active {
+        transform: scaleX(1) scaleY(1);
+    }
+}
+
+@media (max-width: 920px) {
+    .slider-container {
+        padding: 40px 0;
+    }
+    .section-4 {
+        &__container {
+            margin-top: 108px;
+            font-size: 48px;
+            font-size: 1;
+        }
+
+        &__title {
+        }
+
+        &__text {
+            max-width: 60%;
+            margin-bottom: 20px;
+        }
+    }
+    .swiper-wrapper {
+        min-height: 480px;
+        padding: 0 5px;
+    }
+    .section-4 .swiper-slide {
+        min-height: 480px;
+        width: 800px;
+    }
+    .section-4 .swiper-slide-active {
+        min-height: 480px;
+        width: 800px;
+    }
+}
+@media (max-width: 820px) {
+    .swiper-wrapper {
+        min-height: 420px;
+        padding: 0 5px;
+    }
+    .section-4 .swiper-slide {
+        min-height: 420px;
+        width: 700px;
+    }
+    .section-4 .swiper-slide-active {
+        min-height: 420px;
+        width: 700px;
+    }
+}
+@media (max-width: 740px) {
+    .section-4 {
+        &__title {
+            font-size: 42px;
+        }
+    }
+    .swiper-wrapper {
+        min-height: 377px;
+        padding: 0 5px;
+    }
+    .section-4 .swiper-slide {
+        min-height: 377px;
+        width: 630px;
+    }
+    .section-4 .swiper-slide-active {
+        min-height: 377px;
+        width: 650px;
+    }
+}
+
+@media (max-width: 650px) {
+    .section-4__container {
+        margin: 60px 0 0 0;
+    }
+    .section-4 {
+        &__text {
+            max-width: 90%;
+        }
+    }
+    .swiper-wrapper {
+        min-height: 300px;
+        padding: 0 5px;
+    }
+    .section-4 .swiper-slide {
+        min-height: 300px;
+        width: 500px;
+    }
+    .section-4 .swiper-slide-active {
+        min-height: 300px;
+        width: 500px;
+    }
+}
+
+@media (max-width: 550px) {
+    .swiper-wrapper {
+        min-height: 216px;
+        padding: 0 5px;
+    }
+    .section-4 .swiper-slide {
+        min-height: 216px;
+        width: 360px;
+    }
+    .section-4 .swiper-slide-active {
+        min-height: 216px;
+        width: 360px;
+    }
+    .slide__play {
+        width: 40px;
+        height: 40px;
+    }
+}

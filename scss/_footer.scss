@@ -49,10 +49,16 @@
     }
 
     &__text {
-        font-weight: 400;
-        font-size: 13px;
-        line-height: 29px;
-        color: #959ea6;
+        a {
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 29px;
+            color: #959ea6;
+            transition: 0.3s;
+        }
+    }
+    &__text a:hover {
+        color: #101113;
     }
 }
 
@@ -93,11 +99,20 @@
         font-size: 13px;
         line-height: 15px;
         color: #959ea6;
+        transition: 0.3s;
     }
+    &__item:hover {
+        color: #2c3033;
+    }
+
     &__item:first-child {
         flex: 1 1 70%;
     }
     &__item:not(:last-child) {
         margin-right: 40px;
     }
+}
+
+/* адаптив ширины ------------------------------------------------------------------ */
+@media (max-width: 1200px) {
 }

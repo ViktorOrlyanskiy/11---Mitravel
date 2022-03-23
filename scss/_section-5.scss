@@ -95,5 +95,81 @@
         line-height: 1;
         letter-spacing: 2px;
         color: $white-color;
+        transition: 0.3s;
+    }
+    &__button:hover {
+        background-color: $neptune-hover-color;
+    }
+}
+
+/* адаптив ширины ------------------------------------------------------------------ */
+@media (max-width: 1900px) {
+    .section-5 {
+        &__content {
+            padding-right: 8%;
+        }
+    }
+}
+@media (max-width: 1199px) {
+    .section-5 {
+        padding: 90px 0 90px 0;
+
+        &__content {
+            padding-right: 3%;
+        }
+        &__text {
+            padding: 335px 0 0 50px;
+        }
+    }
+    .s4-form {
+        width: 400px;
+        height: 416px;
+    }
+}
+
+@media (max-width: 900px) {
+    .section-5 {
+        margin: 0 auto;
+        padding: 40px 0 40px 0;
+        &__content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0;
+            margin: 0;
+        }
+
+        &__text {
+            padding: 120px 5px 0 5px;
+            text-align: center;
+        }
+
+        &__form {
+            position: static;
+            margin: 0 auto;
+            padding: 0 5px;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .section-5 {
+        &__content {
+            height: 770px;
+        }
+
+        &__subtitle {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        &__title {
+            font-size: 55px;
+            line-height: 55px;
+        }
+    }
+    .s4-form {
+        width: 300px;
     }
 }

@@ -13,6 +13,22 @@
 <body>
 
     <div class="site-container">
+        <div class="menu">
+            <button class="menu__close">
+                <span class="menu__close-line"></span>
+                <span class="menu__close-line"></span>
+            </button>
+            <nav class="menu__nav">
+                <ul class="menu__list">
+                    <li class="menu__item"><a href="#" class="menu__link">Become A Travel</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Featured Stories</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Featured Video</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Newsletter</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Inspirations</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
         <header class="header">
             <div class="container container-header flex">
                 <ul class="header__social social">
@@ -46,16 +62,16 @@
                             <button type="submit" class="search-form__button" aria-label="Search stories"></button>
                         </form>
                         <div class="section-1__slider main-slider">
-                            <div class="swiper-container">
+                            <div class="swiper-container swiper1">
                                 <div class="swiper-wrapper">
+                                    <button class="swiper__btn btn-left"></button>
+                                    <button class="swiper__btn btn-right"></button>
                                     <div class="swiper-slide">
                                         <div class="main-slider__media">
                                             <img src="/img/slide-1.jpg" alt="Moutain">
                                         </div>
                                         <p class="main-slider__text">wonderful moutain</p>
                                     </div>
-                                    <div class="swiper-slide"></div>
-                                    <div class="swiper-slide"></div>
                                 </div>
                             </div>
                         </div>
@@ -146,7 +162,7 @@
                         beautiful
                         National Parks, & Bryce Canyon National Park ranks as three of the most magnificent & awe
                         inspiring.</p>
-                    <div class="section-4__slider slider-container">
+                    <div class="section-4__slider slider-container swiper2">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide s4-slide1">
                                 <button class="slide__play"></button>

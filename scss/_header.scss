@@ -25,6 +25,7 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+        transition: opacity 0.3s;
         &_fb {
             background-image: url(/img/fb.svg);
             width: 11px;
@@ -36,6 +37,11 @@
             width: 20px;
             height: 16px;
         }
+    }
+
+    &__link:hover {
+        opacity: 0.5;
+        transition: opacity 0.3s;
     }
 }
 .logo {
@@ -62,9 +68,20 @@
         position: absolute;
         left: 0;
         top: 0;
+        transition: 0.3s;
     }
     &__line:last-child {
         top: auto;
         bottom: 0;
     }
+}
+
+.burger:hover .burger__line {
+    background-color: $neptune-hover-color;
+    transition: 0.3s;
+}
+
+/* адаптив ширины ------------------------------------------------------------------ */
+@media (max-width: 1200px) {
+    
 }

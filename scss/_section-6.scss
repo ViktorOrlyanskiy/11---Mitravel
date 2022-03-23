@@ -12,9 +12,6 @@
         margin-bottom: 93px;
     }
 
-    &__content {
-    }
-
     &__row {
         margin-bottom: 2%;
     }
@@ -177,4 +174,130 @@
 }
 .s6-slide1 {
     background-image: url(/img/s6-img1.jpg);
+}
+
+/* адаптив ширины ------------------------------------------------------------------ */
+@media (max-width: 1200px) {
+    .s6-slide {
+        bottom: 20px;
+        left: 20px;
+        &__link {
+            top: 20px;
+            right: 20px;
+            padding: 13px 20px;
+        }
+
+        &__btn {
+            left: 20px;
+            top: 22px;
+            width: 50px;
+            height: 50px;
+        }
+        &__btn::after {
+            left: 14px;
+            top: 12px;
+        }
+
+        &__subtitle {
+            margin-bottom: 6px;
+            font-size: 10px;
+            line-height: 12px;
+        }
+
+        &__title {
+            margin-bottom: 20px;
+            font-size: 28px;
+            line-height: 35px;
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .flex-row {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        &__item {
+            &_wide {
+                flex: 1 1 auto;
+                padding: 0;
+                height: 500px;
+                margin: 0 0 15px 0;
+            }
+
+            &_narrow {
+                flex: 1 1 auto;
+                padding: 0;
+                height: 500px;
+                margin: 0 0 15px 0;
+            }
+
+            &_high {
+                flex: 1 1 auto;
+                padding: 0;
+                height: 700px;
+                margin: 0 0 15px 0;
+            }
+        }
+    }
+
+    .s6-slide {
+        bottom: 20px;
+        left: 20px;
+        &__link {
+            top: 20px;
+            right: 20px;
+            padding: 13px 20px;
+        }
+
+        &__btn {
+            left: 20px;
+            top: 22px;
+            width: 50px;
+            height: 50px;
+        }
+        &__btn::after {
+            left: 14px;
+            top: 12px;
+        }
+
+        &__subtitle {
+            margin-bottom: 6px;
+            font-size: 10px;
+            line-height: 12px;
+        }
+
+        &__title {
+            margin-bottom: 20px;
+            font-size: 28px;
+            line-height: 35px;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .flex-row {
+        &__item {
+            &_wide {
+                flex: 1 1 auto;
+                padding: 0;
+                height: 500px;
+                margin: 0 0 15px 0;
+            }
+
+            &_narrow {
+                flex: 1 1 auto;
+                padding: 0;
+                height: 350px;
+                margin: 0 0 15px 0;
+            }
+
+            &_high {
+                flex: 1 1 auto;
+                padding: 0;
+                height: 490px;
+                margin: 0 0 15px 0;
+            }
+        }
+    }
 }

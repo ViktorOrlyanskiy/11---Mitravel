@@ -23,6 +23,10 @@
         border-radius: 100px;
         display: inline-block;
         margin: 0 0 42px 0;
+        transition: 0.3s;
+    }
+    &__link:hover {
+        background-color: rgba(28, 46, 61, 0.8);
     }
 
     &__title {
@@ -47,6 +51,12 @@
         color: $white-color;
         position: relative;
         z-index: 5;
+        transition: 0.3s;
+    }
+
+    &__btn:hover {
+        background-color: $accent-hover-color;
+        transition: 0.3s;
     }
 }
 
@@ -99,6 +109,7 @@
     }
 }
 .main-slider {
+    position: relative;
     overflow: hidden;
     border-radius: 8px 8px 0 0;
 
@@ -118,6 +129,29 @@
     }
 }
 
+.swiper {
+    &__btn {
+        position: absolute;
+        z-index: 1000;
+        width: 14px;
+        height: 14px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+.btn-left {
+    left: 50px;
+    bottom: 33px;
+    background-image: url(/img/s1-left-btn.svg);
+}
+.btn-right {
+    right: 50px;
+    bottom: 33px;
+    background-image: url(/img/s1-right-btn.svg);
+}
+
+/* адаптив высоты ------------------------------------------------------------------ */
 @media (max-height: 1079px) {
     .section-1__container {
         padding: 140px 30px 120px 30px;
@@ -182,4 +216,8 @@
             line-height: 65px;
         }
     }
+}
+/* адаптив ширины ------------------------------------------------------------------ */
+@media (max-width: 1200px) {
+    
 }
