@@ -1,7 +1,7 @@
 .section-1 {
     height: 100vh;
     min-height: 660px;
-    background-image: url(/img/s1-bg.jpg);
+    background-image: url(../img/s1-bg.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -143,12 +143,12 @@
 .btn-left {
     left: 50px;
     bottom: 33px;
-    background-image: url(/img/s1-left-btn.svg);
+    background-image: url(../img/s1-left-btn.svg);
 }
 .btn-right {
     right: 50px;
     bottom: 33px;
-    background-image: url(/img/s1-right-btn.svg);
+    background-image: url(../img/s1-right-btn.svg);
 }
 
 /* адаптив высоты ------------------------------------------------------------------ */

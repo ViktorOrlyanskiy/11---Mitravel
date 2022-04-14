@@ -663,13 +663,13 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .social__link_fb {
-  background-image: url(/img/fb.svg);
+  background-image: url(../img/fb.svg);
   width: 11px;
   height: 20px;
 }
 
 .social__link_tw {
-  background-image: url(/img/tw.svg);
+  background-image: url(../img/tw.svg);
   width: 20px;
   height: 16px;
 }
@@ -724,7 +724,7 @@ input[type="search"]::-webkit-search-results-decoration {
 .section-1 {
   height: 100vh;
   min-height: 660px;
-  background-image: url(/img/s1-bg.jpg);
+  background-image: url(../img/s1-bg.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -875,13 +875,13 @@ input[type="search"]::-webkit-search-results-decoration {
 .btn-left {
   left: 50px;
   bottom: 33px;
-  background-image: url(/img/s1-left-btn.svg);
+  background-image: url(../img/s1-left-btn.svg);
 }
 
 .btn-right {
   right: 50px;
   bottom: 33px;
-  background-image: url(/img/s1-right-btn.svg);
+  background-image: url(../img/s1-right-btn.svg);
 }
 
 /* адаптив высоты ------------------------------------------------------------------ */
@@ -1079,7 +1079,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .section-3 {
-  background-image: url(/img/s3-bg.jpg);
+  background-image: url(../img/s3-bg.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1373,15 +1373,15 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .section-4 .s4-slide1 {
-  background-image: url(/img/s4-slide2.jpg);
+  background-image: url(../img/s4-slide2.jpg);
 }
 
 .section-4 .s4-slide2 {
-  background-image: url(/img/s4-slide3.jpg);
+  background-image: url(../img/s4-slide3.jpg);
 }
 
 .section-4 .s4-slide3 {
-  background-image: url(/img/s4-slide1.jpg);
+  background-image: url(../img/s4-slide1.jpg);
 }
 
 .slide__play {
@@ -1392,7 +1392,7 @@ input[type="search"]::-webkit-search-results-decoration {
   height: 97px;
   border-radius: 50%;
   overflow: hidden;
-  background-image: url(/img/s4-btn.svg);
+  background-image: url(../img/s4-btn.svg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1533,7 +1533,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .section-5__content {
-  background-image: url(/img/s5-bg.jpg);
+  background-image: url(../img/s5-bg.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1846,7 +1846,7 @@ input[type="search"]::-webkit-search-results-decoration {
   top: 18px;
   width: 16px;
   height: 20px;
-  background-image: url(/img/s6-play.svg);
+  background-image: url(../img/s6-play.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -1910,35 +1910,35 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .s6-slide1 {
-  background-image: url(/img/s6-img1.jpg);
+  background-image: url(../img/s6-img1.jpg);
 }
 
 .s6-slide2 {
-  background-image: url(/img/s6-img2.jpg);
+  background-image: url(../img/s6-img2.jpg);
 }
 
 .s6-slide3 {
-  background-image: url(/img/s6-img3.jpg);
+  background-image: url(../img/s6-img3.jpg);
 }
 
 .s6-slide4 {
-  background-image: url(/img/s6-img4.jpg);
+  background-image: url(../img/s6-img4.jpg);
 }
 
 .s6-slide5 {
-  background-image: url(/img/s6-img5.jpg);
+  background-image: url(../img/s6-img5.jpg);
 }
 
 .s6-slide6 {
-  background-image: url(/img/s6-img6.jpg);
+  background-image: url(../img/s6-img6.jpg);
 }
 
 .s6-slide7 {
-  background-image: url(/img/s6-img7.jpg);
+  background-image: url(../img/s6-img7.jpg);
 }
 
 .s6-slide1 {
-  background-image: url(/img/s6-img1.jpg);
+  background-image: url(../img/s6-img1.jpg);
 }
 
 /* адаптив ширины ------------------------------------------------------------------ */
@@ -2156,7 +2156,7 @@ input[type="search"]::-webkit-search-results-decoration {
   line-height: 19px;
   color: #1b1916;
   opacity: 0.5;
-  background-image: url(/img/f-user-input.svg);
+  background-image: url(../img/f-user-input.svg);
   background-repeat: no-repeat;
   background-position: calc(100% - 31px) center;
 }
